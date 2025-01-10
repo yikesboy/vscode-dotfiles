@@ -1,0 +1,39 @@
+{
+  "workbench.colorTheme": "Alt Catppuccin Mocha",
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "files.autoSave": "afterDelay",
+  "git.openRepositoryInParentFolders": "always",
+  "liveServer.settings.donotVerifyTags": true,
+  "go.toolsManagement.autoUpdate": true,
+  "lldb.library": "/usr/share/swift/usr/lib/liblldb.so",
+  "lldb.launch.expressions": "native",
+  "editor.minimap.enabled": false,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true,
+  },
+  "vscord.app.privacyMode.enable": true,
+  "vscord.status.idle.check": false,
+  "vscord.status.idle.enabled": false,
+  "vscord.ignore.gitHosts": [
+    "github.com"
+  ],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "python.diagnostics.sourceMapsEnabled": true,
+  "editor.lineNumbers": "relative",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+        "before": ["<C-d>"],
+        "after": ["<C-d>", "z", "z"]
+    },
+    {
+        "before": ["<C-u>"],
+        "after": ["<C-u>", "z", "z"]
+    }
+]
+}

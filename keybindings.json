@@ -32,16 +32,16 @@
   {
     "key": "space v",
     "command": "workbench.action.splitEditor",
-    "when": "editorTextFocus && vim.mode == 'Normal' || terminalFocus"
+    "when": "editorTextFocus && vim.mode == 'Normal'"
   },
   {
     "key": "space h",
     "command": "workbench.action.splitEditorOrthogonal",
-    "when": "editorTextFocus && vim.mode == 'Normal' || terminalFocus"
+    "when": "editorTextFocus && vim.mode == 'Normal'"
   },
   {
     "key": "space x",
     "command": "workbench.action.closeActiveEditor",
-    "when": "editorTextFocus && vim.mode == 'Normal' || terminalFocus"
+    "when": "editorTextFocus && vim.mode == 'Normal'"
   }
 ]
